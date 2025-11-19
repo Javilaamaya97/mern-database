@@ -1,0 +1,46 @@
+0 verbose cli /usr/bin/node-22 /usr/bin/npm
+1 info using npm@10.9.2
+2 info using node@v22.13.1
+3 silly config load:file:/usr/lib/node_modules_22/npm/npmrc
+4 silly config load:file:/root/backend/.npmrc
+5 silly config load:file:/root/.npmrc
+6 silly config load:file:/etc/npmrc
+7 verbose title npm install express
+8 verbose argv "install" "express"
+9 verbose logfile logs-max:10 dir:/root/.npm/_logs/2025-10-18T00_29_25_859Z-
+10 verbose logfile /root/.npm/_logs/2025-10-18T00_29_25_859Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:919601152 maxSize:229900288 maxEntrySize:114950144
+13 silly idealTree buildDeps
+14 silly fetch manifest express@*
+15 silly packumentCache full:https://registry.npmjs.org/express cache-miss
+16 http fetch GET https://registry.npmjs.org/express attempt 1 failed with ENOTFOUND
+17 http fetch GET https://registry.npmjs.org/express attempt 2 failed with ENOTFOUND
+18 http fetch GET https://registry.npmjs.org/express attempt 3 failed with ENOTFOUND
+19 silly placeDep ROOT express@ OK for: backend@1.0.0 want: *
+20 verbose type system
+21 verbose stack FetchError: request to https://registry.npmjs.org/express failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org
+21 verbose stack     at ClientRequest.<anonymous> (/usr/lib/node_modules_22/npm/node_modules/minipass-fetch/lib/index.js:130:14)
+21 verbose stack     at ClientRequest.emit (node:events:524:28)
+21 verbose stack     at emitErrorEvent (node:_http_client:104:11)
+21 verbose stack     at _destroy (node:_http_client:898:9)
+21 verbose stack     at onSocketNT (node:_http_client:918:5)
+21 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:91:21)
+22 error code ENOTFOUND
+23 error syscall getaddrinfo
+24 error errno ENOTFOUND
+25 error network request to https://registry.npmjs.org/express failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org
+26 error network This is a problem related to network connectivity.
+26 error network In most cases you are behind a proxy or have bad network settings.
+26 error network
+26 error network If you are behind a proxy, please make sure that the
+26 error network 'proxy' config is set properly.  See: 'npm help config'
+27 silly unfinished npm timer reify 1760747366493
+28 silly unfinished npm timer reify:loadTrees 1760747366493
+29 verbose cwd /root/backend
+30 verbose os Linux 6.12.0-55.9.1.el10_0.x86_64
+31 verbose node v22.13.1
+32 verbose npm  v10.9.2
+33 verbose exit 1
+34 verbose code 1
+35 error A complete log of this run can be found in: /root/.npm/_logs/2025-10-18T00_29_25_859Z-debug-0.log

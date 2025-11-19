@@ -1,0 +1,27 @@
+[0;1;32m●[0m mariadb.service - MariaDB 10.11 database server
+     Loaded: loaded (]8;;file://db/usr/lib/systemd/system/mariadb.service\/usr/lib/systemd/system/mariadb.service]8;;\; [0;1;32menabled[0m; preset: [0;1;38:5:185mdisabled[0m)
+     Active: [0;1;32mactive (running)[0m since Sun 2025-11-16 04:55:00 -05; 1min 54s ago
+ Invocation: 8e33937624e746d48128ae04d89db6c1
+       Docs: ]8;;man:mariadbd(8)\man:mariadbd(8)]8;;\
+             ]8;;https://mariadb.com/kb/en/library/systemd/\https://mariadb.com/kb/en/library/systemd/]8;;\
+    Process: 3630 ExecStartPre=/usr/libexec/mariadb-check-socket (code=exited, status=0/SUCCESS)
+    Process: 3653 ExecStartPre=/usr/libexec/mariadb-prepare-db-dir mariadb.service (code=exited, status=0/SUCCESS)
+    Process: 3750 ExecStartPost=/usr/libexec/mariadb-check-upgrade (code=exited, status=0/SUCCESS)
+   Main PID: 3737 (mariadbd)
+     Status: "[0;1;36mTaking your SQL requests now...[0m"
+      Tasks: 9[0;38;5;245m (limit: 10682)[0m
+     Memory: 229.2M (peak: 253.7M)
+        CPU: 8.788s
+     CGroup: /system.slice/mariadb.service
+             └─[0;38;5;245m3737 /usr/libexec/mariadbd --basedir=/usr[0m
+
+nov 16 04:54:58 db mariadb-prepare-db-dir[3692]: you need to be the system 'mysql' user to connect.
+nov 16 04:54:58 db mariadb-prepare-db-dir[3692]: After connecting you can set the password, if you would need to be
+nov 16 04:54:58 db mariadb-prepare-db-dir[3692]: able to connect as any of these users with a password and without sudo
+nov 16 04:54:58 db mariadb-prepare-db-dir[3692]: See the MariaDB Knowledgebase at https://mariadb.com/kb
+nov 16 04:54:58 db mariadb-prepare-db-dir[3692]: Please report any problems at https://mariadb.org/jira
+nov 16 04:54:58 db mariadb-prepare-db-dir[3692]: The latest information about MariaDB is available at https://mariadb.org/.
+nov 16 04:54:58 db mariadb-prepare-db-dir[3692]: Consider joining MariaDB's strong and vibrant community:
+nov 16 04:54:58 db mariadb-prepare-db-dir[3692]: https://mariadb.org/get-involved/
+nov 16 04:54:58 db (mariadbd)[3737]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mmariadb.service: Referenced but unset environment variable evaluates to an empty string: MYSQLD_OPTS, _WSREP_NEW_CLUSTER[0m
+nov 16 04:55:00 db systemd[1]: Started mariadb.service - MariaDB 10.11 database server.

@@ -1,0 +1,346 @@
+# Vim 9.1 generó este archivo "viminfo".
+# Puede editarlo, ¡sólo si tiene cuidado!
+
+# Viminfo version
+|1,4
+
+# Valor de 'encoding' cuando se escribió este archivo
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~H
+# Última cadena de sustitución:
+$
+
+# Historia de Línea de órdenes (de lo más nuevo a lo más antiguo):
+:wq
+|2,0,1760781173,,"wq"
+:%d
+|2,0,1760761472,,"%d"
+:q
+|2,0,1760746254,,"q"
+
+# Historia de Cadena de búsqueda (de lo más nuevo a lo más antiguo):
+? @$
+|2,1,1755880237,,"@$"
+
+# Historia de Expresión (de lo más nuevo a lo más antiguo):
+
+# Historia de Línea de entrada (de lo más nuevo a lo más antiguo):
+
+# Historia de Línea de depuración (de lo más nuevo a lo más antiguo):
+
+# Registros:
+"1	LINE	0
+	const express = require("express");
+	const app = express();
+	
+	// Middleware básico
+	app.get("/", (req, res) => {
+	  res.send("🚀 Backend funcionando correctamente");
+	});
+	
+	// Escuchar en todas las interfaces, puerto 4000
+	app.listen(4000, "0.0.0.0", () => {
+	  console.log("🔥 Servidor corriendo en http://10.18.9.63:4000");
+	});
+	
+|3,0,1,1,13,0,1760761472,"const express = require(\"express\");","const app = express();","","// Middleware básico","app.get(\"/\", (req, res) => {","  res.send(\"🚀 Backend funcionando correctamente\");","});","","// Escuchar en todas las interfaces, puerto 4000","app.listen(4000, \"0.0.0.0\", () => {","  console.log(\"🔥 Servidor corriendo en http://10.18.9.63:4000\");","});",""
+""-	CHAR	0
+	t
+|3,1,36,0,1,0,1760761846,"t"
+
+# Marcas en el archivo:
+'0  4  0  ~/backend/.git/MERGE_MSG
+|4,48,4,0,1760781173,"~/backend/.git/MERGE_MSG"
+'1  81  0  ~/backend/index.js
+|4,49,81,0,1760762961,"~/backend/index.js"
+'2  27  53  ~/backend/index.js
+|4,50,27,53,1760762961,"~/backend/index.js"
+'3  11  13  ~/backend/index.js
+|4,51,11,13,1760761879,"~/backend/index.js"
+'4  33  0  ~/backend/index.js
+|4,52,33,0,1760761524,"~/backend/index.js"
+'5  33  0  ~/backend/index.js
+|4,53,33,0,1760761524,"~/backend/index.js"
+'6  1  24  ~/backend/index.js
+|4,54,1,24,1760758705,"~/backend/index.js"
+'7  10  24  ~/backend/index.js
+|4,55,10,24,1760758705,"~/backend/index.js"
+'8  1  24  ~/backend/index.js
+|4,56,1,24,1760758705,"~/backend/index.js"
+'9  10  24  ~/backend/index.js
+|4,57,10,24,1760758705,"~/backend/index.js"
+
+# Lista de saltos (el más reciente va primero):
+-'  4  0  ~/backend/.git/MERGE_MSG
+|4,39,4,0,1760781173,"~/backend/.git/MERGE_MSG"
+-'  1  0  ~/backend/.git/MERGE_MSG
+|4,39,1,0,1760781160,"~/backend/.git/MERGE_MSG"
+-'  81  0  ~/backend/index.js
+|4,39,81,0,1760762961,"~/backend/index.js"
+-'  27  53  ~/backend/index.js
+|4,39,27,53,1760762961,"~/backend/index.js"
+-'  81  0  ~/backend/index.js
+|4,39,81,0,1760762961,"~/backend/index.js"
+-'  27  53  ~/backend/index.js
+|4,39,27,53,1760762961,"~/backend/index.js"
+-'  11  13  ~/backend/index.js
+|4,39,11,13,1760761879,"~/backend/index.js"
+-'  11  13  ~/backend/index.js
+|4,39,11,13,1760761879,"~/backend/index.js"
+-'  10  9  ~/backend/index.js
+|4,39,10,9,1760761833,"~/backend/index.js"
+-'  10  9  ~/backend/index.js
+|4,39,10,9,1760761833,"~/backend/index.js"
+-'  33  0  ~/backend/index.js
+|4,39,33,0,1760761810,"~/backend/index.js"
+-'  33  0  ~/backend/index.js
+|4,39,33,0,1760761810,"~/backend/index.js"
+-'  33  0  ~/backend/index.js
+|4,39,33,0,1760761524,"~/backend/index.js"
+-'  33  0  ~/backend/index.js
+|4,39,33,0,1760761524,"~/backend/index.js"
+-'  1  24  ~/backend/index.js
+|4,39,1,24,1760761472,"~/backend/index.js"
+-'  1  24  ~/backend/index.js
+|4,39,1,24,1760761472,"~/backend/index.js"
+-'  1  24  ~/backend/index.js
+|4,39,1,24,1760761472,"~/backend/index.js"
+-'  1  24  ~/backend/index.js
+|4,39,1,24,1760761472,"~/backend/index.js"
+-'  10  24  ~/backend/index.js
+|4,39,10,24,1760758705,"~/backend/index.js"
+-'  10  24  ~/backend/index.js
+|4,39,10,24,1760758705,"~/backend/index.js"
+-'  11  66  ~/backend/index.js
+|4,39,11,66,1760758604,"~/backend/index.js"
+-'  11  66  ~/backend/index.js
+|4,39,11,66,1760758604,"~/backend/index.js"
+-'  1  0  ~/backend/index.js
+|4,39,1,0,1760758333,"~/backend/index.js"
+-'  1  0  ~/backend/index.js
+|4,39,1,0,1760758333,"~/backend/index.js"
+-'  1  0  ~/backend/index.js
+|4,39,1,0,1760758333,"~/backend/index.js"
+-'  1  0  ~/backend/index.js
+|4,39,1,0,1760758333,"~/backend/index.js"
+-'  11  66  ~/backend/index.js
+|4,39,11,66,1760757891,"~/backend/index.js"
+-'  11  66  ~/backend/index.js
+|4,39,11,66,1760757891,"~/backend/index.js"
+-'  11  66  ~/backend/index.js
+|4,39,11,66,1760757891,"~/backend/index.js"
+-'  11  66  ~/backend/index.js
+|4,39,11,66,1760757891,"~/backend/index.js"
+-'  1  0  ~/backend/index.js
+|4,39,1,0,1760757806,"~/backend/index.js"
+-'  1  0  ~/backend/index.js
+|4,39,1,0,1760757806,"~/backend/index.js"
+-'  58  0  ~/backend/index.js
+|4,39,58,0,1760756667,"~/backend/index.js"
+-'  46  0  ~/backend/index.js
+|4,39,46,0,1760756667,"~/backend/index.js"
+-'  39  0  ~/backend/index.js
+|4,39,39,0,1760756667,"~/backend/index.js"
+-'  27  0  ~/backend/index.js
+|4,39,27,0,1760756667,"~/backend/index.js"
+-'  58  0  ~/backend/index.js
+|4,39,58,0,1760756667,"~/backend/index.js"
+-'  46  0  ~/backend/index.js
+|4,39,46,0,1760756667,"~/backend/index.js"
+-'  39  0  ~/backend/index.js
+|4,39,39,0,1760756667,"~/backend/index.js"
+-'  27  0  ~/backend/index.js
+|4,39,27,0,1760756667,"~/backend/index.js"
+-'  39  0  ~/backend/index.js
+|4,39,39,0,1760756667,"~/backend/index.js"
+-'  27  0  ~/backend/index.js
+|4,39,27,0,1760756667,"~/backend/index.js"
+-'  39  0  ~/backend/index.js
+|4,39,39,0,1760756667,"~/backend/index.js"
+-'  27  0  ~/backend/index.js
+|4,39,27,0,1760756667,"~/backend/index.js"
+-'  58  0  ~/backend/index.js
+|4,39,58,0,1760756667,"~/backend/index.js"
+-'  46  0  ~/backend/index.js
+|4,39,46,0,1760756667,"~/backend/index.js"
+-'  39  0  ~/backend/index.js
+|4,39,39,0,1760756667,"~/backend/index.js"
+-'  27  0  ~/backend/index.js
+|4,39,27,0,1760756667,"~/backend/index.js"
+-'  58  0  ~/backend/index.js
+|4,39,58,0,1760756667,"~/backend/index.js"
+-'  46  0  ~/backend/index.js
+|4,39,46,0,1760756667,"~/backend/index.js"
+-'  39  0  ~/backend/index.js
+|4,39,39,0,1760756667,"~/backend/index.js"
+-'  27  0  ~/backend/index.js
+|4,39,27,0,1760756667,"~/backend/index.js"
+-'  39  0  ~/backend/index.js
+|4,39,39,0,1760756667,"~/backend/index.js"
+-'  27  0  ~/backend/index.js
+|4,39,27,0,1760756667,"~/backend/index.js"
+-'  39  0  ~/backend/index.js
+|4,39,39,0,1760756667,"~/backend/index.js"
+-'  27  0  ~/backend/index.js
+|4,39,27,0,1760756667,"~/backend/index.js"
+-'  1  0  ~/backend/index.js
+|4,39,1,0,1760756583,"~/backend/index.js"
+-'  1  0  ~/backend/index.js
+|4,39,1,0,1760756583,"~/backend/index.js"
+-'  1  0  ~/backend/index.js
+|4,39,1,0,1760756583,"~/backend/index.js"
+-'  1  0  ~/backend/index.js
+|4,39,1,0,1760756583,"~/backend/index.js"
+-'  1  0  ~/backend/index.js
+|4,39,1,0,1760756056,"~/backend/index.js"
+-'  1  0  ~/backend/index.js
+|4,39,1,0,1760756056,"~/backend/index.js"
+-'  1  0  ~/backend/index.js
+|4,39,1,0,1760755943,"~/backend/index.js"
+-'  1  0  ~/backend/index.js
+|4,39,1,0,1760755943,"~/backend/index.js"
+-'  1  0  ~/backend/index.js
+|4,39,1,0,1760755760,"~/backend/index.js"
+-'  1  0  ~/backend/index.js
+|4,39,1,0,1760755760,"~/backend/index.js"
+-'  80  0  ~/backend/index.js
+|4,39,80,0,1760755715,"~/backend/index.js"
+-'  42  0  ~/backend/index.js
+|4,39,42,0,1760755715,"~/backend/index.js"
+-'  112  0  ~/backend/index.js
+|4,39,112,0,1760755715,"~/backend/index.js"
+-'  74  0  ~/backend/index.js
+|4,39,74,0,1760755715,"~/backend/index.js"
+-'  100  0  ~/backend/index.js
+|4,39,100,0,1760755715,"~/backend/index.js"
+-'  62  0  ~/backend/index.js
+|4,39,62,0,1760755715,"~/backend/index.js"
+-'  93  0  ~/backend/index.js
+|4,39,93,0,1760755715,"~/backend/index.js"
+-'  55  0  ~/backend/index.js
+|4,39,55,0,1760755715,"~/backend/index.js"
+-'  81  0  ~/backend/index.js
+|4,39,81,0,1760755715,"~/backend/index.js"
+-'  43  0  ~/backend/index.js
+|4,39,43,0,1760755715,"~/backend/index.js"
+-'  112  0  ~/backend/index.js
+|4,39,112,0,1760755715,"~/backend/index.js"
+-'  74  0  ~/backend/index.js
+|4,39,74,0,1760755715,"~/backend/index.js"
+-'  100  0  ~/backend/index.js
+|4,39,100,0,1760755715,"~/backend/index.js"
+-'  62  0  ~/backend/index.js
+|4,39,62,0,1760755715,"~/backend/index.js"
+-'  93  0  ~/backend/index.js
+|4,39,93,0,1760755715,"~/backend/index.js"
+-'  55  0  ~/backend/index.js
+|4,39,55,0,1760755715,"~/backend/index.js"
+-'  81  0  ~/backend/index.js
+|4,39,81,0,1760755715,"~/backend/index.js"
+-'  43  0  ~/backend/index.js
+|4,39,43,0,1760755715,"~/backend/index.js"
+-'  93  0  ~/backend/index.js
+|4,39,93,0,1760755715,"~/backend/index.js"
+-'  55  0  ~/backend/index.js
+|4,39,55,0,1760755715,"~/backend/index.js"
+-'  81  0  ~/backend/index.js
+|4,39,81,0,1760755715,"~/backend/index.js"
+-'  43  0  ~/backend/index.js
+|4,39,43,0,1760755715,"~/backend/index.js"
+-'  93  0  ~/backend/index.js
+|4,39,93,0,1760755715,"~/backend/index.js"
+-'  55  0  ~/backend/index.js
+|4,39,55,0,1760755715,"~/backend/index.js"
+-'  81  0  ~/backend/index.js
+|4,39,81,0,1760755715,"~/backend/index.js"
+-'  43  0  ~/backend/index.js
+|4,39,43,0,1760755715,"~/backend/index.js"
+-'  81  0  ~/backend/index.js
+|4,39,81,0,1760755715,"~/backend/index.js"
+-'  43  0  ~/backend/index.js
+|4,39,43,0,1760755715,"~/backend/index.js"
+-'  80  0  ~/backend/index.js
+|4,39,80,0,1760755715,"~/backend/index.js"
+-'  42  0  ~/backend/index.js
+|4,39,42,0,1760755715,"~/backend/index.js"
+-'  112  0  ~/backend/index.js
+|4,39,112,0,1760755715,"~/backend/index.js"
+-'  74  0  ~/backend/index.js
+|4,39,74,0,1760755715,"~/backend/index.js"
+-'  100  0  ~/backend/index.js
+|4,39,100,0,1760755715,"~/backend/index.js"
+-'  62  0  ~/backend/index.js
+|4,39,62,0,1760755715,"~/backend/index.js"
+
+# Historia de las marcas en los archivos (de la más reciente a la más antigua):
+
+> ~/backend/.git/MERGE_MSG
+	*	1760781170	0
+	"	4	0
+
+> ~/backend/index.js
+	*	1760755951	0
+	"	81	0
+	^	39	0
+	.	38	0
+	+	106	3
+	+	1	0
+	+	77	0
+	+	81	0
+	+	82	0
+	+	84	0
+	+	83	0
+	+	105	0
+	+	106	0
+	+	103	0
+	+	104	0
+	+	101	0
+	+	100	0
+	+	99	0
+	+	98	0
+	+	96	0
+	+	95	0
+	+	94	0
+	+	95	0
+	+	94	0
+	+	93	0
+	+	92	0
+	+	91	0
+	+	90	0
+	+	89	0
+	+	87	0
+	+	86	0
+	+	85	0
+	+	84	0
+	+	74	0
+	+	75	0
+	+	78	0
+	+	79	0
+	+	72	3
+	+	69	0
+	+	64	0
+	+	55	0
+	+	47	0
+	+	43	0
+	+	1	0
+	+	38	0
+
+> /etc/yum.repos.d/local.repo
+	*	1760746253	0
+	"	8	31
+	^	8	32
+	.	8	31
+	+	11	29
+	+	2	31
+	+	8	31
+
+> /mnt/media.repo
+	*	1755880398	0
+	"	1	0
+
+> /etc/yum.repos.d/redhat.repo
+	*	1755826674	0
+	"	1	0

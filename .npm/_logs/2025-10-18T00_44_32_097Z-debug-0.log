@@ -1,0 +1,273 @@
+0 verbose cli /root/.nvm/versions/node/v20.19.5/bin/node /root/.nvm/versions/node/v20.19.5/bin/npm
+1 info using npm@10.8.2
+2 info using node@v20.19.5
+3 silly config load:file:/root/.nvm/versions/node/v20.19.5/lib/node_modules/npm/npmrc
+4 silly config load:file:/root/backend/.npmrc
+5 silly config load:file:/root/.npmrc
+6 silly config load:file:/root/.nvm/versions/node/v20.19.5/etc/npmrc
+7 verbose title npm install mysql2 morgan cors
+8 verbose argv "install" "mysql2" "morgan" "cors"
+9 verbose logfile logs-max:10 dir:/root/.npm/_logs/2025-10-18T00_44_32_097Z-
+10 verbose logfile /root/.npm/_logs/2025-10-18T00_44_32_097Z-debug-0.log
+11 silly packumentCache heap:919601152 maxSize:229900288 maxEntrySize:114950144
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest mysql2@*
+15 silly packumentCache full:https://registry.npmjs.org/mysql2 cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/mysql2 413ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/mysql2 set size:undefined disposed:false
+18 silly fetch manifest morgan@*
+19 silly packumentCache full:https://registry.npmjs.org/morgan cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/morgan 110ms (cache miss)
+21 silly packumentCache full:https://registry.npmjs.org/morgan set size:undefined disposed:false
+22 silly fetch manifest cors@*
+23 silly packumentCache full:https://registry.npmjs.org/cors cache-miss
+24 http fetch GET 200 https://registry.npmjs.org/cors 88ms (cache miss)
+25 silly packumentCache full:https://registry.npmjs.org/cors set size:undefined disposed:false
+26 silly placeDep ROOT cors@2.8.5 OK for: backend@1.0.0 want: *
+27 silly placeDep ROOT morgan@1.10.1 OK for: backend@1.0.0 want: *
+28 silly placeDep ROOT mysql2@3.15.2 OK for: backend@1.0.0 want: *
+29 silly fetch manifest object-assign@^4
+30 silly packumentCache full:https://registry.npmjs.org/object-assign cache-miss
+31 http fetch GET 200 https://registry.npmjs.org/object-assign 140ms (cache miss)
+32 silly packumentCache full:https://registry.npmjs.org/object-assign set size:undefined disposed:false
+33 silly fetch manifest basic-auth@~2.0.1
+34 silly packumentCache full:https://registry.npmjs.org/basic-auth cache-miss
+35 http fetch GET 200 https://registry.npmjs.org/basic-auth 83ms (cache miss)
+36 silly packumentCache full:https://registry.npmjs.org/basic-auth set size:undefined disposed:false
+37 silly fetch manifest debug@2.6.9
+38 silly packumentCache full:https://registry.npmjs.org/debug cache-miss
+39 http fetch GET 200 https://registry.npmjs.org/debug 7ms (cache hit)
+40 silly packumentCache full:https://registry.npmjs.org/debug set size:195840 disposed:false
+41 silly fetch manifest on-finished@~2.3.0
+42 silly packumentCache full:https://registry.npmjs.org/on-finished cache-miss
+43 http fetch GET 200 https://registry.npmjs.org/on-finished 2ms (cache hit)
+44 silly packumentCache full:https://registry.npmjs.org/on-finished set size:23212 disposed:false
+45 silly fetch manifest on-headers@~1.1.0
+46 silly packumentCache full:https://registry.npmjs.org/on-headers cache-miss
+47 http fetch GET 200 https://registry.npmjs.org/on-headers 88ms (cache miss)
+48 silly packumentCache full:https://registry.npmjs.org/on-headers set size:undefined disposed:false
+49 silly fetch manifest long@^5.2.1
+50 silly packumentCache full:https://registry.npmjs.org/long cache-miss
+51 http fetch GET 200 https://registry.npmjs.org/long 93ms (cache miss)
+52 silly packumentCache full:https://registry.npmjs.org/long set size:undefined disposed:false
+53 silly fetch manifest denque@^2.1.0
+54 silly packumentCache full:https://registry.npmjs.org/denque cache-miss
+55 http fetch GET 200 https://registry.npmjs.org/denque 96ms (cache miss)
+56 silly packumentCache full:https://registry.npmjs.org/denque set size:undefined disposed:false
+57 silly fetch manifest lru.min@^1.0.0
+58 silly packumentCache full:https://registry.npmjs.org/lru.min cache-miss
+59 http fetch GET 200 https://registry.npmjs.org/lru.min 85ms (cache miss)
+60 silly packumentCache full:https://registry.npmjs.org/lru.min set size:undefined disposed:false
+61 silly fetch manifest seq-queue@^0.0.5
+62 silly packumentCache full:https://registry.npmjs.org/seq-queue cache-miss
+63 http fetch GET 200 https://registry.npmjs.org/seq-queue 132ms (cache miss)
+64 silly packumentCache full:https://registry.npmjs.org/seq-queue set size:undefined disposed:false
+65 silly fetch manifest sqlstring@^2.3.2
+66 silly packumentCache full:https://registry.npmjs.org/sqlstring cache-miss
+67 http fetch GET 200 https://registry.npmjs.org/sqlstring 96ms (cache miss)
+68 silly packumentCache full:https://registry.npmjs.org/sqlstring set size:undefined disposed:false
+69 silly fetch manifest iconv-lite@^0.7.0
+70 silly packumentCache full:https://registry.npmjs.org/iconv-lite cache-miss
+71 http fetch GET 200 https://registry.npmjs.org/iconv-lite 5ms (cache hit)
+72 silly packumentCache full:https://registry.npmjs.org/iconv-lite set size:118890 disposed:false
+73 silly fetch manifest aws-ssl-profiles@^1.1.1
+74 silly packumentCache full:https://registry.npmjs.org/aws-ssl-profiles cache-miss
+75 http fetch GET 200 https://registry.npmjs.org/aws-ssl-profiles 88ms (cache miss)
+76 silly packumentCache full:https://registry.npmjs.org/aws-ssl-profiles set size:undefined disposed:false
+77 silly fetch manifest generate-function@^2.3.1
+78 silly packumentCache full:https://registry.npmjs.org/generate-function cache-miss
+79 http fetch GET 200 https://registry.npmjs.org/generate-function 83ms (cache miss)
+80 silly packumentCache full:https://registry.npmjs.org/generate-function set size:undefined disposed:false
+81 silly fetch manifest named-placeholders@^1.1.3
+82 silly packumentCache full:https://registry.npmjs.org/named-placeholders cache-miss
+83 http fetch GET 200 https://registry.npmjs.org/named-placeholders 83ms (cache miss)
+84 silly packumentCache full:https://registry.npmjs.org/named-placeholders set size:undefined disposed:false
+85 silly placeDep ROOT object-assign@4.1.1 OK for: cors@2.8.5 want: ^4
+86 silly placeDep ROOT basic-auth@2.0.1 OK for: morgan@1.10.1 want: ~2.0.1
+87 silly placeDep node_modules/morgan debug@2.6.9 OK for: morgan@1.10.1 want: 2.6.9
+88 silly placeDep node_modules/morgan on-finished@2.3.0 OK for: morgan@1.10.1 want: ~2.3.0
+89 silly placeDep ROOT on-headers@1.1.0 OK for: morgan@1.10.1 want: ~1.1.0
+90 silly fetch manifest safe-buffer@5.1.2
+91 silly packumentCache full:https://registry.npmjs.org/safe-buffer cache-miss
+92 http fetch GET 200 https://registry.npmjs.org/safe-buffer 3ms (cache hit)
+93 silly packumentCache full:https://registry.npmjs.org/safe-buffer set size:41183 disposed:false
+94 silly fetch manifest ms@2.0.0
+95 silly packumentCache full:https://registry.npmjs.org/ms cache-miss
+96 http fetch GET 200 https://registry.npmjs.org/ms 2ms (cache hit)
+97 silly packumentCache full:https://registry.npmjs.org/ms set size:92208 disposed:false
+98 silly placeDep node_modules/basic-auth safe-buffer@5.1.2 OK for: basic-auth@2.0.1 want: 5.1.2
+99 silly placeDep ROOT aws-ssl-profiles@1.1.2 OK for: mysql2@3.15.2 want: ^1.1.1
+100 silly placeDep ROOT denque@2.1.0 OK for: mysql2@3.15.2 want: ^2.1.0
+101 silly placeDep ROOT generate-function@2.3.1 OK for: mysql2@3.15.2 want: ^2.3.1
+102 silly placeDep node_modules/mysql2 iconv-lite@0.7.0 OK for: mysql2@3.15.2 want: ^0.7.0
+103 silly placeDep ROOT long@5.3.2 OK for: mysql2@3.15.2 want: ^5.2.1
+104 silly placeDep ROOT lru.min@1.1.2 OK for: mysql2@3.15.2 want: ^1.0.0
+105 silly placeDep ROOT named-placeholders@1.1.3 OK for: mysql2@3.15.2 want: ^1.1.3
+106 silly placeDep ROOT seq-queue@0.0.5 OK for: mysql2@3.15.2 want: ^0.0.5
+107 silly placeDep ROOT sqlstring@2.3.3 OK for: mysql2@3.15.2 want: ^2.3.2
+108 silly fetch manifest is-property@^1.0.2
+109 silly packumentCache full:https://registry.npmjs.org/is-property cache-miss
+110 http fetch GET 200 https://registry.npmjs.org/is-property 111ms (cache miss)
+111 silly packumentCache full:https://registry.npmjs.org/is-property set size:undefined disposed:false
+112 silly fetch manifest lru-cache@^7.14.1
+113 silly packumentCache full:https://registry.npmjs.org/lru-cache cache-miss
+114 http fetch GET 200 https://registry.npmjs.org/lru-cache 120ms (cache miss)
+115 silly packumentCache full:https://registry.npmjs.org/lru-cache set size:undefined disposed:false
+116 silly placeDep ROOT is-property@1.0.2 OK for: generate-function@2.3.1 want: ^1.0.2
+117 silly placeDep ROOT lru-cache@7.18.3 OK for: named-placeholders@1.1.3 want: ^7.14.1
+118 silly placeDep node_modules/morgan ms@2.0.0 OK for: debug@2.6.9 want: 2.0.0
+119 silly reify moves {}
+120 silly audit bulk request {
+120 silly audit   accepts: [ '2.0.0' ],
+120 silly audit   'body-parser': [ '2.2.0' ],
+120 silly audit   bytes: [ '3.1.2' ],
+120 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+120 silly audit   'call-bound': [ '1.0.4' ],
+120 silly audit   'content-disposition': [ '1.0.0' ],
+120 silly audit   'content-type': [ '1.0.5' ],
+120 silly audit   cookie: [ '0.7.2' ],
+120 silly audit   'cookie-signature': [ '1.2.2' ],
+120 silly audit   debug: [ '4.4.3', '2.6.9' ],
+120 silly audit   depd: [ '2.0.0' ],
+120 silly audit   'dunder-proto': [ '1.0.1' ],
+120 silly audit   'ee-first': [ '1.1.1' ],
+120 silly audit   encodeurl: [ '2.0.0' ],
+120 silly audit   'es-define-property': [ '1.0.1' ],
+120 silly audit   'es-errors': [ '1.3.0' ],
+120 silly audit   'es-object-atoms': [ '1.1.1' ],
+120 silly audit   'escape-html': [ '1.0.3' ],
+120 silly audit   etag: [ '1.8.1' ],
+120 silly audit   express: [ '5.1.0' ],
+120 silly audit   finalhandler: [ '2.1.0' ],
+120 silly audit   forwarded: [ '0.2.0' ],
+120 silly audit   fresh: [ '2.0.0' ],
+120 silly audit   'function-bind': [ '1.1.2' ],
+120 silly audit   'get-intrinsic': [ '1.3.0' ],
+120 silly audit   'get-proto': [ '1.0.1' ],
+120 silly audit   gopd: [ '1.2.0' ],
+120 silly audit   'has-symbols': [ '1.1.0' ],
+120 silly audit   hasown: [ '2.0.2' ],
+120 silly audit   'http-errors': [ '2.0.0' ],
+120 silly audit   statuses: [ '2.0.1', '2.0.2' ],
+120 silly audit   'iconv-lite': [ '0.6.3', '0.7.0' ],
+120 silly audit   inherits: [ '2.0.4' ],
+120 silly audit   'ipaddr.js': [ '1.9.1' ],
+120 silly audit   'is-promise': [ '4.0.0' ],
+120 silly audit   'math-intrinsics': [ '1.1.0' ],
+120 silly audit   'media-typer': [ '1.1.0' ],
+120 silly audit   'merge-descriptors': [ '2.0.0' ],
+120 silly audit   'mime-db': [ '1.54.0' ],
+120 silly audit   'mime-types': [ '3.0.1' ],
+120 silly audit   ms: [ '2.1.3', '2.0.0' ],
+120 silly audit   negotiator: [ '1.0.0' ],
+120 silly audit   'object-inspect': [ '1.13.4' ],
+120 silly audit   'on-finished': [ '2.4.1', '2.3.0' ],
+120 silly audit   once: [ '1.4.0' ],
+120 silly audit   parseurl: [ '1.3.3' ],
+120 silly audit   'path-to-regexp': [ '8.3.0' ],
+120 silly audit   'proxy-addr': [ '2.0.7' ],
+120 silly audit   qs: [ '6.14.0' ],
+120 silly audit   'range-parser': [ '1.2.1' ],
+120 silly audit   'raw-body': [ '3.0.1' ],
+120 silly audit   router: [ '2.2.0' ],
+120 silly audit   'safe-buffer': [ '5.2.1', '5.1.2' ],
+120 silly audit   'safer-buffer': [ '2.1.2' ],
+120 silly audit   send: [ '1.2.0' ],
+120 silly audit   'serve-static': [ '2.2.0' ],
+120 silly audit   setprototypeof: [ '1.2.0' ],
+120 silly audit   'side-channel': [ '1.1.0' ],
+120 silly audit   'side-channel-list': [ '1.0.0' ],
+120 silly audit   'side-channel-map': [ '1.0.1' ],
+120 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+120 silly audit   toidentifier: [ '1.0.1' ],
+120 silly audit   'type-is': [ '2.0.1' ],
+120 silly audit   unpipe: [ '1.0.0' ],
+120 silly audit   vary: [ '1.1.2' ],
+120 silly audit   wrappy: [ '1.0.2' ],
+120 silly audit   cors: [ '2.8.5' ],
+120 silly audit   morgan: [ '1.10.1' ],
+120 silly audit   mysql2: [ '3.15.2' ],
+120 silly audit   'object-assign': [ '4.1.1' ],
+120 silly audit   'basic-auth': [ '2.0.1' ],
+120 silly audit   'on-headers': [ '1.1.0' ],
+120 silly audit   'aws-ssl-profiles': [ '1.1.2' ],
+120 silly audit   denque: [ '2.1.0' ],
+120 silly audit   'generate-function': [ '2.3.1' ],
+120 silly audit   long: [ '5.3.2' ],
+120 silly audit   'lru.min': [ '1.1.2' ],
+120 silly audit   'named-placeholders': [ '1.1.3' ],
+120 silly audit   'seq-queue': [ '0.0.5' ],
+120 silly audit   sqlstring: [ '2.3.3' ],
+120 silly audit   'is-property': [ '1.0.2' ],
+120 silly audit   'lru-cache': [ '7.18.3' ]
+120 silly audit }
+121 silly tarball no local data for lru-cache@https://registry.npmjs.org/lru-cache/-/lru-cache-7.18.3.tgz. Extracting by manifest.
+122 silly tarball no local data for is-property@https://registry.npmjs.org/is-property/-/is-property-1.0.2.tgz. Extracting by manifest.
+123 silly tarball no local data for sqlstring@https://registry.npmjs.org/sqlstring/-/sqlstring-2.3.3.tgz. Extracting by manifest.
+124 silly tarball no local data for seq-queue@https://registry.npmjs.org/seq-queue/-/seq-queue-0.0.5.tgz. Extracting by manifest.
+125 silly tarball no local data for named-placeholders@https://registry.npmjs.org/named-placeholders/-/named-placeholders-1.1.3.tgz. Extracting by manifest.
+126 silly tarball no local data for lru.min@https://registry.npmjs.org/lru.min/-/lru.min-1.1.2.tgz. Extracting by manifest.
+127 silly tarball no local data for long@https://registry.npmjs.org/long/-/long-5.3.2.tgz. Extracting by manifest.
+128 silly tarball no local data for generate-function@https://registry.npmjs.org/generate-function/-/generate-function-2.3.1.tgz. Extracting by manifest.
+129 silly tarball no local data for denque@https://registry.npmjs.org/denque/-/denque-2.1.0.tgz. Extracting by manifest.
+130 silly tarball no local data for aws-ssl-profiles@https://registry.npmjs.org/aws-ssl-profiles/-/aws-ssl-profiles-1.1.2.tgz. Extracting by manifest.
+131 silly tarball no local data for on-headers@https://registry.npmjs.org/on-headers/-/on-headers-1.1.0.tgz. Extracting by manifest.
+132 silly tarball no local data for basic-auth@https://registry.npmjs.org/basic-auth/-/basic-auth-2.0.1.tgz. Extracting by manifest.
+133 silly tarball no local data for object-assign@https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz. Extracting by manifest.
+134 silly tarball no local data for mysql2@https://registry.npmjs.org/mysql2/-/mysql2-3.15.2.tgz. Extracting by manifest.
+135 silly tarball no local data for morgan@https://registry.npmjs.org/morgan/-/morgan-1.10.1.tgz. Extracting by manifest.
+136 silly tarball no local data for cors@https://registry.npmjs.org/cors/-/cors-2.8.5.tgz. Extracting by manifest.
+137 silly tarball no local data for safe-buffer@https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz. Extracting by manifest.
+138 silly tarball no local data for ms@https://registry.npmjs.org/ms/-/ms-2.0.0.tgz. Extracting by manifest.
+139 silly tarball no local data for on-finished@https://registry.npmjs.org/on-finished/-/on-finished-2.3.0.tgz. Extracting by manifest.
+140 silly tarball no local data for debug@https://registry.npmjs.org/debug/-/debug-2.6.9.tgz. Extracting by manifest.
+141 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 234ms
+142 silly audit report {}
+143 http fetch GET 200 https://registry.npmjs.org/morgan/-/morgan-1.10.1.tgz 318ms (cache miss)
+144 http fetch GET 200 https://registry.npmjs.org/cors/-/cors-2.8.5.tgz 614ms (cache miss)
+145 http fetch GET 200 https://registry.npmjs.org/is-property/-/is-property-1.0.2.tgz 650ms (cache miss)
+146 http fetch GET 200 https://registry.npmjs.org/named-placeholders/-/named-placeholders-1.1.3.tgz 648ms (cache miss)
+147 http fetch GET 200 https://registry.npmjs.org/on-headers/-/on-headers-1.1.0.tgz 639ms (cache miss)
+148 http fetch GET 200 https://registry.npmjs.org/on-finished/-/on-finished-2.3.0.tgz 634ms (cache miss)
+149 http fetch GET 200 https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz 646ms (cache miss)
+150 http fetch GET 200 https://registry.npmjs.org/ms/-/ms-2.0.0.tgz 644ms (cache miss)
+151 http fetch GET 200 https://registry.npmjs.org/generate-function/-/generate-function-2.3.1.tgz 658ms (cache miss)
+152 http fetch GET 200 https://registry.npmjs.org/basic-auth/-/basic-auth-2.0.1.tgz 652ms (cache miss)
+153 http fetch GET 200 https://registry.npmjs.org/seq-queue/-/seq-queue-0.0.5.tgz 670ms (cache miss)
+154 http fetch GET 200 https://registry.npmjs.org/denque/-/denque-2.1.0.tgz 667ms (cache miss)
+155 http fetch GET 200 https://registry.npmjs.org/lru.min/-/lru.min-1.1.2.tgz 675ms (cache miss)
+156 http fetch GET 200 https://registry.npmjs.org/sqlstring/-/sqlstring-2.3.3.tgz 680ms (cache miss)
+157 http fetch GET 200 https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz 672ms (cache miss)
+158 http fetch GET 200 https://registry.npmjs.org/long/-/long-5.3.2.tgz 705ms (cache miss)
+159 http fetch GET 200 https://registry.npmjs.org/lru-cache/-/lru-cache-7.18.3.tgz 723ms (cache miss)
+160 http fetch GET 200 https://registry.npmjs.org/debug/-/debug-2.6.9.tgz 698ms (cache miss)
+161 http fetch GET 200 https://registry.npmjs.org/aws-ssl-profiles/-/aws-ssl-profiles-1.1.2.tgz 739ms (cache miss)
+162 http fetch GET 200 https://registry.npmjs.org/mysql2/-/mysql2-3.15.2.tgz 805ms (cache miss)
+163 silly ADD node_modules/lru-cache
+164 silly ADD node_modules/is-property
+165 silly ADD node_modules/sqlstring
+166 silly ADD node_modules/seq-queue
+167 silly ADD node_modules/named-placeholders
+168 silly ADD node_modules/lru.min
+169 silly ADD node_modules/long
+170 silly ADD node_modules/generate-function
+171 silly ADD node_modules/denque
+172 silly ADD node_modules/aws-ssl-profiles
+173 silly ADD node_modules/on-headers
+174 silly ADD node_modules/basic-auth
+175 silly ADD node_modules/basic-auth/node_modules/safe-buffer
+176 silly ADD node_modules/object-assign
+177 silly ADD node_modules/mysql2
+178 silly ADD node_modules/mysql2/node_modules/iconv-lite
+179 silly ADD node_modules/morgan
+180 silly ADD node_modules/morgan/node_modules/ms
+181 silly ADD node_modules/morgan/node_modules/on-finished
+182 silly ADD node_modules/morgan/node_modules/debug
+183 silly ADD node_modules/cors
+184 verbose cwd /root/backend
+185 verbose os Linux 6.12.0-55.9.1.el10_0.x86_64
+186 verbose node v20.19.5
+187 verbose npm  v10.8.2
+188 verbose exit 0
+189 info ok
